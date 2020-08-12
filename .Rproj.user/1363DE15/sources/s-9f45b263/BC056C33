@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1597263370288.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BC056C33",
+    "lastKnownWriteTime" : 1597263588,
+    "last_content_update" : 1597263588267,
+    "path" : "/mnt/exports/shared/home/jfiksel/hello_world/clustertest.sh",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "8,11",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sh"
+}
