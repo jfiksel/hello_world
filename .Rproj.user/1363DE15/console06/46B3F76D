@@ -5564,3 +5564,162 @@ Initialized empty Git repository in /mnt/exports/shared/home/jfiksel/hello_world
 error: src refspec master does not match any.
 error: failed to push some refs to 'git@github.com:jfiksel/hello_world.git'
 ]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ git add -A
+]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ git commit -m "First commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'jfiksel@awsaornva3058.(none)')
+]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ git config --global user.email "jfiksel@gmail.com"
+]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ git config --global user.name "jfiksel"[K[K[K[K[K[K[K[K[K"jfiksel"
+]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ git config --global user.name "jfiksel"email "jfiksel@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P echo 4212FDFC && /usr/bin/env && echo 19A35F7D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pgit commit -m "First commit"
+[master (root-commit) f94587d] First commit
+ 129 files changed, 5934 insertions(+)
+ create mode 100644 .Rproj.user/1363DE15/console06/46B3F76D
+ create mode 100644 .Rproj.user/1363DE15/console06/46B3F76D.env
+ create mode 100644 .Rproj.user/1363DE15/console06/INDEX001
+ create mode 100644 .Rproj.user/1363DE15/sources/prop/71C63043
+ create mode 100644 .Rproj.user/1363DE15/sources/prop/752D3635
+ create mode 100644 .Rproj.user/1363DE15/sources/prop/91675791
+ create mode 100644 .Rproj.user/1363DE15/sources/prop/960D104D
+ create mode 100644 .Rproj.user/1363DE15/sources/prop/EEBC3E4F
+ create mode 100644 .Rproj.user/1363DE15/sources/prop/INDEX
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/23627DA2
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/23627DA2-contents
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/395C2F33-contents
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/43A232D3
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/43A232D3-contents
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/BC056C33
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/BC056C33-contents
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/DFB9C966
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/DFB9C966-contents
+ create mode 100644 .Rproj.user/1363DE15/sources/s-9f45b263/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 bootstrap-results/run-1.rds
+ create mode 100644 bootstrap-results/run-10.rds
+ create mode 100644 bootstrap-results/run-100.rds
+ create mode 100644 bootstrap-results/run-11.rds
+ create mode 100644 bootstrap-results/run-12.rds
+ create mode 100644 bootstrap-results/run-13.rds
+ create mode 100644 bootstrap-results/run-14.rds
+ create mode 100644 bootstrap-results/run-15.rds
+ create mode 100644 bootstrap-results/run-16.rds
+ create mode 100644 bootstrap-results/run-17.rds
+ create mode 100644 bootstrap-results/run-18.rds
+ create mode 100644 bootstrap-results/run-19.rds
+ create mode 100644 bootstrap-results/run-2.rds
+ create mode 100644 bootstrap-results/run-20.rds
+ create mode 100644 bootstrap-results/run-21.rds
+ create mode 100644 bootstrap-results/run-22.rds
+ create mode 100644 bootstrap-results/run-23.rds
+ create mode 100644 bootstrap-results/run-24.rds
+ create mode 100644 bootstrap-results/run-25.rds
+ create mode 100644 bootstrap-results/run-26.rds
+ create mode 100644 bootstrap-results/run-27.rds
+ create mode 100644 bootstrap-results/run-28.rds
+ create mode 100644 bootstrap-results/run-29.rds
+ create mode 100644 bootstrap-results/run-3.rds
+ create mode 100644 bootstrap-results/run-30.rds
+ create mode 100644 bootstrap-results/run-31.rds
+ create mode 100644 bootstrap-results/run-32.rds
+ create mode 100644 bootstrap-results/run-33.rds
+ create mode 100644 bootstrap-results/run-34.rds
+ create mode 100644 bootstrap-results/run-35.rds
+ create mode 100644 bootstrap-results/run-36.rds
+ create mode 100644 bootstrap-results/run-37.rds
+ create mode 100644 bootstrap-results/run-38.rds
+ create mode 100644 bootstrap-results/run-39.rds
+ create mode 100644 bootstrap-results/run-4.rds
+ create mode 100644 bootstrap-results/run-40.rds
+ create mode 100644 bootstrap-results/run-41.rds
+ create mode 100644 bootstrap-results/run-42.rds
+ create mode 100644 bootstrap-results/run-43.rds
+ create mode 100644 bootstrap-results/run-44.rds
+ create mode 100644 bootstrap-results/run-45.rds
+ create mode 100644 bootstrap-results/run-46.rds
+ create mode 100644 bootstrap-results/run-47.rds
+ create mode 100644 bootstrap-results/run-48.rds
+ create mode 100644 bootstrap-results/run-49.rds
+ create mode 100644 bootstrap-results/run-5.rds
+ create mode 100644 bootstrap-results/run-50.rds
+ create mode 100644 bootstrap-results/run-51.rds
+ create mode 100644 bootstrap-results/run-52.rds
+ create mode 100644 bootstrap-results/run-53.rds
+ create mode 100644 bootstrap-results/run-54.rds
+ create mode 100644 bootstrap-results/run-55.rds
+ create mode 100644 bootstrap-results/run-56.rds
+ create mode 100644 bootstrap-results/run-57.rds
+ create mode 100644 bootstrap-results/run-58.rds
+ create mode 100644 bootstrap-results/run-59.rds
+ create mode 100644 bootstrap-results/run-6.rds
+ create mode 100644 bootstrap-results/run-60.rds
+ create mode 100644 bootstrap-results/run-61.rds
+ create mode 100644 bootstrap-results/run-62.rds
+ create mode 100644 bootstrap-results/run-63.rds
+ create mode 100644 bootstrap-results/run-64.rds
+ create mode 100644 bootstrap-results/run-65.rds
+ create mode 100644 bootstrap-results/run-66.rds
+ create mode 100644 bootstrap-results/run-67.rds
+ create mode 100644 bootstrap-results/run-68.rds
+ create mode 100644 bootstrap-results/run-69.rds
+ create mode 100644 bootstrap-results/run-7.rds
+ create mode 100644 bootstrap-results/run-70.rds
+ create mode 100644 bootstrap-results/run-71.rds
+ create mode 100644 bootstrap-results/run-72.rds
+ create mode 100644 bootstrap-results/run-73.rds
+ create mode 100644 bootstrap-results/run-74.rds
+ create mode 100644 bootstrap-results/run-75.rds
+ create mode 100644 bootstrap-results/run-76.rds
+ create mode 100644 bootstrap-results/run-77.rds
+ create mode 100644 bootstrap-results/run-78.rds
+ create mode 100644 bootstrap-results/run-79.rds
+ create mode 100644 bootstrap-results/run-8.rds
+ create mode 100644 bootstrap-results/run-80.rds
+ create mode 100644 bootstrap-results/run-81.rds
+ create mode 100644 bootstrap-results/run-82.rds
+ create mode 100644 bootstrap-results/run-83.rds
+ create mode 100644 bootstrap-results/run-84.rds
+ create mode 100644 bootstrap-results/run-85.rds
+ create mode 100644 bootstrap-results/run-86.rds
+ create mode 100644 bootstrap-results/run-87.rds
+ create mode 100644 bootstrap-results/run-88.rds
+ create mode 100644 bootstrap-results/run-89.rds
+ create mode 100644 bootstrap-results/run-9.rds
+ create mode 100644 bootstrap-results/run-90.rds
+ create mode 100644 bootstrap-results/run-91.rds
+ create mode 100644 bootstrap-results/run-92.rds
+ create mode 100644 bootstrap-results/run-93.rds
+ create mode 100644 bootstrap-results/run-94.rds
+ create mode 100644 bootstrap-results/run-95.rds
+ create mode 100644 bootstrap-results/run-96.rds
+ create mode 100644 bootstrap-results/run-97.rds
+ create mode 100644 bootstrap-results/run-98.rds
+ create mode 100644 bootstrap-results/run-99.rds
+ create mode 100644 clustertest.R
+ create mode 100644 clustertest.sh
+ create mode 100644 createBootstrapIndices.R
+ create mode 100644 createBootstrapIndices.sh
+ create mode 100644 data/indices.rds
+ create mode 100644 data/sim_data.rds
+ create mode 100644 hello_world.Rproj
+ create mode 100644 plotResults.R
+]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ git commit -m "First commit"nfig --global user.name "jfiksel"email "jfiksel@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P echo 4212FDFC && /usr/bin/env && echo 19A35F7D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pgit commit -m "First commit"add -A[K echo 4212FDFC && /usr/bin/env && echo 19A35F7D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pgit push -u origin masterremote add origin git@github.com:jfiksel/hello_world.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Ppush -u origin master
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+Counting objects: 136, done.
+Delta compression using up to 36 threads.
+Compressing objects:   0% (1/133)   Compressing objects:   1% (2/133)   Compressing objects:   2% (3/133)   Compressing objects:   3% (4/133)   Compressing objects:   4% (6/133)   Compressing objects:   5% (7/133)   Compressing objects:   6% (8/133)   Compressing objects:   7% (10/133)   Compressing objects:   8% (11/133)   Compressing objects:   9% (12/133)   Compressing objects:  10% (14/133)   Compressing objects:  11% (15/133)   Compressing objects:  12% (16/133)   Compressing objects:  13% (18/133)   Compressing objects:  14% (19/133)   Compressing objects:  15% (20/133)   Compressing objects:  16% (22/133)   Compressing objects:  17% (23/133)   Compressing objects:  18% (24/133)   Compressing objects:  19% (26/133)   Compressing objects:  20% (27/133)   Compressing objects:  21% (28/133)   Compressing objects:  22% (30/133)   Compressing objects:  23% (31/133)   Compressing objects:  24% (32/133)   Compressing objects:  25% (34/133)   Compressing objects:  26% (35/133)   Compressing objects:  27% (36/133)   Compressing objects:  28% (38/133)   Compressing objects:  29% (39/133)   Compressing objects:  30% (40/133)   Compressing objects:  31% (42/133)   Compressing objects:  32% (43/133)   Compressing objects:  33% (44/133)   Compressing objects:  34% (46/133)   Compressing objects:  35% (47/133)   Compressing objects:  36% (48/133)   Compressing objects:  37% (50/133)   Compressing objects:  38% (51/133)   Compressing objects:  39% (52/133)   Compressing objects:  40% (54/133)   Compressing objects:  41% (55/133)   Compressing objects:  42% (56/133)   Compressing objects:  43% (58/133)   Compressing objects:  44% (59/133)   Compressing objects:  45% (60/133)   Compressing objects:  46% (62/133)   Compressing objects:  47% (63/133)   Compressing objects:  48% (64/133)   Compressing objects:  49% (66/133)   Compressing objects:  50% (67/133)   Compressing objects:  51% (68/133)   Compressing objects:  52% (70/133)   Compressing objects:  53% (71/133)   Compressing objects:  54% (72/133)   Compressing objects:  55% (74/133)   Compressing objects:  56% (75/133)   Compressing objects:  57% (76/133)   Compressing objects:  58% (78/133)   Compressing objects:  59% (79/133)   Compressing objects:  60% (80/133)   Compressing objects:  61% (82/133)   Compressing objects:  62% (83/133)   Compressing objects:  63% (84/133)   Compressing objects:  64% (86/133)   Compressing objects:  65% (87/133)   Compressing objects:  66% (88/133)   Compressing objects:  67% (90/133)   Compressing objects:  68% (91/133)   Compressing objects:  69% (92/133)   Compressing objects:  70% (94/133)   Compressing objects:  71% (95/133)   Compressing objects:  72% (96/133)   Compressing objects:  73% (98/133)   Compressing objects:  74% (99/133)   Compressing objects:  75% (100/133)   Compressing objects:  76% (102/133)   Compressing objects:  77% (103/133)   Compressing objects:  78% (104/133)   Compressing objects:  79% (106/133)   Compressing objects:  80% (107/133)   Compressing objects:  81% (108/133)   Compressing objects:  82% (110/133)   Compressing objects:  83% (111/133)   Compressing objects:  84% (112/133)   Compressing objects:  85% (114/133)   Compressing objects:  86% (115/133)   Compressing objects:  87% (116/133)   Compressing objects:  88% (118/133)   Compressing objects:  89% (119/133)   Compressing objects:  90% (120/133)   Compressing objects:  91% (122/133)   Compressing objects:  92% (123/133)   Compressing objects:  93% (124/133)   Compressing objects:  94% (126/133)   Compressing objects:  95% (127/133)   Compressing objects:  96% (128/133)   Compressing objects:  97% (130/133)   Compressing objects:  98% (131/133)   Compressing objects:  99% (132/133)   Compressing objects: 100% (133/133)   Compressing objects: 100% (133/133), done.
+Writing objects:   0% (1/136)   Writing objects:   1% (2/136)   Writing objects:   2% (3/136)   Writing objects:   3% (5/136)   Writing objects:   4% (6/136)   Writing objects:   5% (7/136)   Writing objects:   6% (9/136)   Writing objects:   7% (10/136)   Writing objects:   8% (11/136)   Writing objects:   9% (13/136)   Writing objects:  10% (14/136)   Writing objects:  11% (15/136)   Writing objects:  12% (17/136)   Writing objects:  14% (20/136)   Writing objects:  15% (21/136)   Writing objects:  16% (22/136)   Writing objects:  17% (24/136)   Writing objects:  18% (25/136)   Writing objects:  19% (26/136)   Writing objects:  20% (28/136)   Writing objects:  21% (29/136)   Writing objects:  22% (30/136)   Writing objects:  23% (32/136)   Writing objects:  24% (33/136)   Writing objects:  25% (34/136)   Writing objects:  26% (36/136)   Writing objects:  27% (37/136)   Writing objects:  28% (39/136)   Writing objects:  29% (40/136)   Writing objects:  30% (41/136)   Writing objects:  31% (43/136)   Writing objects:  32% (44/136)   Writing objects:  33% (45/136)   Writing objects:  34% (47/136)   Writing objects:  35% (48/136)   Writing objects:  36% (49/136)   Writing objects:  37% (51/136)   Writing objects:  38% (52/136)   Writing objects:  39% (54/136)   Writing objects:  40% (55/136)   Writing objects:  41% (56/136)   Writing objects:  42% (58/136)   Writing objects:  43% (59/136)   Writing objects:  44% (60/136)   Writing objects:  45% (62/136)   Writing objects:  46% (63/136)   Writing objects:  47% (64/136)   Writing objects:  48% (66/136)   Writing objects:  49% (67/136)   Writing objects:  50% (68/136)   Writing objects:  51% (70/136)   Writing objects:  52% (71/136)   Writing objects:  53% (73/136)   Writing objects:  54% (74/136)   Writing objects:  55% (75/136)   Writing objects:  56% (77/136)   Writing objects:  57% (78/136)   Writing objects:  58% (79/136)   Writing objects:  59% (81/136)   Writing objects:  60% (82/136)   Writing objects:  61% (83/136)   Writing objects:  62% (85/136)   Writing objects:  63% (86/136)   Writing objects:  64% (88/136)   Writing objects:  65% (89/136)   Writing objects:  66% (90/136)   Writing objects:  67% (92/136)   Writing objects:  68% (93/136)   Writing objects:  69% (94/136)   Writing objects:  70% (96/136)   Writing objects:  71% (97/136)   Writing objects:  72% (98/136)   Writing objects:  73% (100/136)   Writing objects:  74% (101/136)   Writing objects:  75% (102/136)   Writing objects:  76% (104/136)   Writing objects:  77% (105/136)   Writing objects:  78% (107/136)   Writing objects:  79% (108/136)   Writing objects:  80% (109/136)   Writing objects:  81% (111/136)   Writing objects:  82% (112/136)   Writing objects:  83% (113/136)   Writing objects:  84% (115/136)   Writing objects:  85% (116/136)   Writing objects:  86% (117/136)   Writing objects:  87% (119/136)   Writing objects:  88% (120/136)   Writing objects:  89% (122/136)   Writing objects:  90% (123/136)   Writing objects:  91% (124/136)   Writing objects:  92% (126/136)   Writing objects:  93% (127/136)   Writing objects:  94% (128/136)   Writing objects:  95% (130/136)   Writing objects:  96% (131/136)   Writing objects:  97% (132/136)   Writing objects:  98% (134/136)   Writing objects:  99% (135/136)   Writing objects: 100% (136/136)   Writing objects: 100% (136/136), 66.48 KiB | 0 bytes/s, done.
+Total 136 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), done.[K
+To git@github.com:jfiksel/hello_world.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/hello_world[jfiksel@awsaornva3058 hello_world]$ gt [K[Kit add -A

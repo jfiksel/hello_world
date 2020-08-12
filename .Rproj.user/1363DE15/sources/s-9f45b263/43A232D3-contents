@@ -8,3 +8,5 @@ ggplot.df <- data.frame(index = 1:length(results), mean = results)
 ggplot.hist <-
   ggplot(ggplot.df, aes(mean)) +
   geom_histogram()
+ggsave(filename = "bootstrap-histogram-ggplot.pdf",
+       plot = ggplot.hist)
